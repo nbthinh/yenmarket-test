@@ -1,12 +1,11 @@
-<template>
-    <div class="container">
-        <div class="row">
-            <div class="col-6">fsdfdsfds</div>
-            <div class="col-6">fsdfdsfds</div>
-        </div>
-        This is my header
-    </div>
-</template>
 <script>
+import '~/components/HeaderComponent.scss'
 
 </script>
+<template>
+    <div class="row">
+        <div class="col-12 header-container">
+            <div>hgfgdffsdgdfssd</div>
+        </div>
+    </div>
+</template>
