@@ -9,8 +9,23 @@ import '~/components/HeaderComponent.scss'
                 <img src="./../assets/img/logo.png">
             </div>
             <div class="header-find">
-                <div class="group">
-                    <input type="text" class="form-control header-find-input" />
+                <div class="group-find">
+                    <input placeholder="Key search" type="text" class="header-find-input" />
+                    <img class="icon" src="./../assets/img/icon-find.svg" />
+                </div>
+            </div>
+            <div class="header-hotline-user">
+                <img class="icon" src="./../assets/img/icon-hotline.svg" />
+                <div class="infor">
+                    <div>Hotline</div>
+                    <div>1900 066 890</div>
+                </div>
+            </div>
+            <div class="header-hotline-user">
+                <img class="icon" src="./../assets/img/icon-user.svg" />
+                <div class="infor">
+                    <div>Hi,</div>
+                    <div>Login</div>
                 </div>
             </div>
         </div>
