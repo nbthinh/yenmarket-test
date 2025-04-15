@@ -1,0 +1,3 @@
+<template>
+    <HomePageComponent></HomePageComponent>
+</template>
