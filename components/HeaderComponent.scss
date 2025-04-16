@@ -17,7 +17,7 @@
         width: fit-content;
         max-width: 35rem;
         .group-find {
-            width: 25rem;
+            width: 25vw;
             position: relative;
             height: 100%;
             display: flex;
@@ -75,6 +75,21 @@
             .flag {
                 height: 1.75rem;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+    .header-container {
+        height: 5rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .header-container {
+        background: linear-gradient(0deg, #dc7273, #ca2628);
+        .hide-element {
+            display: none;
         }
     }
 }

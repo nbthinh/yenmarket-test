@@ -14,21 +14,21 @@ import '~/components/HeaderComponent.scss'
                     <img class="icon" src="./../assets/img/icon-find.svg" />
                 </div>
             </div>
-            <div class="header-common-infor">
+            <div class="header-common-infor hide-element">
                 <img class="icon" src="./../assets/img/icon-hotline.svg" />
                 <div class="infor">
                     <div>Hotline</div>
                     <div>1900 066 890</div>
                 </div>
             </div>
-            <div class="header-common-infor">
+            <div class="header-common-infor  hide-element">
                 <img class="icon" src="./../assets/img/icon-user.svg" />
                 <div class="infor">
                     <div>Hi,</div>
                     <div>Login</div>
                 </div>
             </div>
-            <div class="header-common-infor">
+            <div class="header-common-infor hide-element">
                 <span class="icon-cart">
                     <img  src="./../assets/img/icon-cart.svg" />
                 </span>
