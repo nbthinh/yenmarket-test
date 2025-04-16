@@ -1,7 +1,7 @@
 .header-container {
     height: 6rem;
     display: flex;
-    justify-content: space-betweens;
+    justify-content: space-between;
     gap: 15px;
     .header-logo {
         width: fit-content;
@@ -43,10 +43,9 @@
         }
     }
 
-    .header-hotline-user {
+    .header-common-infor {
         width: fit-content;
         gap: 5px;
-        border: 1px solid black;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,7 +53,15 @@
         padding-right: 15px;
         font-weight: 600;
         .icon {
-            color: red !important;
+            filter: invert(14%) sepia(100%) saturate(4618%) hue-rotate(352deg) brightness(86%) contrast(80%);
+        }
+        .icon-cart {
+            border: 2px solid #ca2628;  
+            border-radius: 10px;
+            cursor: pointer;
+            padding: 6px;
+            color: #ca2628;
+            filter: invert(14%) sepia(100%) saturate(4618%) hue-rotate(352deg) brightness(86%) contrast(80%);
         }
         .infor {
 

@@ -14,19 +14,24 @@ import '~/components/HeaderComponent.scss'
                     <img class="icon" src="./../assets/img/icon-find.svg" />
                 </div>
             </div>
-            <div class="header-hotline-user">
+            <div class="header-common-infor">
                 <img class="icon" src="./../assets/img/icon-hotline.svg" />
                 <div class="infor">
                     <div>Hotline</div>
                     <div>1900 066 890</div>
                 </div>
             </div>
-            <div class="header-hotline-user">
+            <div class="header-common-infor">
                 <img class="icon" src="./../assets/img/icon-user.svg" />
                 <div class="infor">
                     <div>Hi,</div>
                     <div>Login</div>
                 </div>
+            </div>
+            <div class="header-common-infor">
+                <span class="icon-cart">
+                    <img  src="./../assets/img/icon-cart.svg" />
+                </span>
             </div>
         </div>
     </div>
