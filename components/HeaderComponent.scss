@@ -88,6 +88,7 @@
 @media only screen and (max-width: 769px) {
     .header-container {
         background: linear-gradient(0deg, #dc7273, #ca2628);
+        overflow: hidden;
         .hide-element {
             display: none;
         }
