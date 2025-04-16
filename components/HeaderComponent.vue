@@ -33,6 +33,15 @@ import '~/components/HeaderComponent.scss'
                     <img  src="./../assets/img/icon-cart.svg" />
                 </span>
             </div>
+            <div class="header-common-infor language-transfer">
+                <span>
+                    <img class="flag" src="./../assets/img/flag-vi.svg" />
+                </span>
+                <span>
+                    <img class="flag" src="./../assets/img/flag-en.svg" />
+
+                </span>
+            </div>
         </div>
     </div>
 </template>
